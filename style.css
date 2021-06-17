@@ -1,0 +1,228 @@
+body
+{
+    margin: 0px;
+}
+.container
+{
+   
+    
+}
+.header
+{
+    width:100%;
+    height:50px;
+    background-color: rgb(3,27,100);
+}
+.header a
+{
+    text-align: center;
+    width:100px;
+    height:30px;
+    text-decoration: none;
+    color:white;
+    display:block;
+    position:relative;
+    top:50%;
+    left:100%;
+    transform: translate(-110%,-50%);
+   z-index:1;
+   border:0px solid rgb(3,27,100);
+   border-radius: 10px;
+}
+.header a label
+{
+    position:relative;
+    top:15%;
+    z-index: -1;
+}
+.header a:hover
+{
+    background-color: rgb(3,50,150);
+}
+.main
+{
+    position:relative;
+    width:400px;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.main h2
+{
+    margin-bottom: 50px;
+    color:rgb(3,27,100);
+    opacity: .9;
+    text-decoration: underline;
+}
+.main div
+{
+    display:inline-block;
+    width:30%;
+    height:100px;
+    padding:0px 30px 0px 30px;
+}
+.main div a
+{
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background-color: rgb(3,27,100);
+    display: block;
+    color:white;
+    border:0px solid rgb(3,27,100);
+    border-radius: 10%;
+    box-shadow: 2px 2px 2px 1px grey;
+}
+.main div a label
+{
+    position:relative;
+    top:40%;
+    
+}
+.main div a:hover
+{
+    background-color: rgb(3,50,150);
+    box-shadow: 4px 4px 4px 2px grey;
+}
+.register
+{
+    width:100%;
+    text-align: center;
+}
+.register h1
+{
+    color:rgb(3,27,100);
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    opacity:.9;
+}
+
+.register table
+{
+    position: relative;
+    left:50%;
+    transform: translate(-50%,0%);
+    width:40%;
+    text-align: center;
+    
+}
+.register table tr td
+{
+    height:40px;
+    width:50%;
+}
+.inputs
+{
+    width:90%;
+    border:0px;
+    height:25px;
+    font-size: 17px;
+}
+.reg_label
+{
+    font-size: 18px;
+    padding:5px 0px 5px 0px;
+    font-weight:bold;
+    opacity:.9;
+}
+
+
+.register_btn
+{
+    width:150px;
+    height:40px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color:white;
+    background-color: rgb(3,27,100);
+    border:0px solid rgb(3,27,100);
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px 1px grey;
+    font-size:18px;
+    font-weight: bold;
+}
+.register_btn:hover
+{
+    background-color: rgb(3,50,150);
+    box-shadow: 4px 4px 4px 2px grey;
+}
+
+.register h2
+{
+    color:rgb(3,27,100);
+    text-decoration: underline;
+    padding-top:30px;
+    
+}
+.patient_docinfo
+{
+    font-size: 17px;
+    font-weight: bold;
+}
+.patient_docdetails
+{
+    font-size:17px;
+    color:rgb(3,50,150);
+}
+.doctor_main
+{
+    display:flex;
+    flex-direction:row;
+}
+.partition
+{
+    width:50%;
+    padding:100px 50px 100px 50px;
+}
+.patient_detail_doctor tr td
+{
+    
+    height:40px;
+    width:50%;
+}
+.patient_detail_doctor tr td label
+{
+    font-size:22px;
+    
+}
+.done_with_patient
+{
+    width:70%;
+    height:40px;
+    background-color: rgb(3,27,100);
+    border:0px solid rgb(3,27,100);
+    border-radius:10px;
+    color:white;
+    font-size: 20px;
+    margin: 40px 0px 0px 15px;
+}
+.done_with_patient:hover
+{
+    background-color: rgb(3,50,150);
+    box-shadow: 4px 4px 4px 2px grey;
+}
+.partition h1
+{
+    font-size:40px; 
+    color:rgb(3,27,100); 
+    text-decoration: underline;
+    margin-left: 20px;
+}
+.patient_queue
+{
+    width:100%;
+    margin-top: 60px;
+    text-align: center;
+}
+.patient_queue tr th
+{
+    height:50px;
+    font-size: 25px;
+}
+.patient_queue tr td
+{
+    height:50px;
+    font-size: 20px;
+}
